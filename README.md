@@ -66,7 +66,7 @@ The workspace includes the following modules:
 - Product Roadmap
 - AI Assistant
 
-*Add screenshots of your actual application here to showcase the interface.*
+
 
 ## ⚙️ Getting Started
 
@@ -102,7 +102,9 @@ Activate the virtual environment.
 
 Install the backend dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 Create a `.env` file in the backend's expected configuration directory and configure the required MongoDB connection, JWT settings, and Groq API key according to your project configuration.
 
@@ -116,14 +118,17 @@ Add the remaining required environment variables using the names expected by you
 
 Start the FastAPI server using your project's actual application entry point. For example, if the application instance is `app` in `main.py`:
 
+```bash
 uvicorn main:app --reload
+```
 
 ### 3. Access API Documentation
 
 Once the backend is running, open:
 
+```text
 http://127.0.0.1:8000/docs
-
+```
 
 This opens the interactive Swagger UI for exploring and testing the available API endpoints.
 
@@ -131,11 +136,14 @@ This opens the interactive Swagger UI for exploring and testing the available AP
 
 Open a new terminal and navigate to the frontend directory:
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
 
 Open the local URL printed by Vite in your terminal.
+
 
 ## 🔒 Environment Variables & Security
 
@@ -153,6 +161,8 @@ Open the local URL printed by Vite in your terminal.
 - Worked with FastAPI and MongoDB.
 - Integrated AI-powered functionality using Groq and CrewAI.
 - Supported API integration between the backend and frontend.
+
+
 
 ## 🎯 Project Objective
 
@@ -173,5 +183,7 @@ This project was developed collaboratively. Contributions, feedback, and suggest
 ## 📄 License
 
 Add an appropriate license if the project owner has chosen to distribute the project under one.
+
+---
 
 **Built with Python, React, FastAPI, MongoDB, and AI.** 🚀
