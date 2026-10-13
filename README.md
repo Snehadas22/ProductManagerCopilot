@@ -168,21 +168,9 @@ Open the local URL printed by Vite in your terminal.
 
 To simplify product management by converting unstructured customer feedback into structured insights, actionable requirements, and AI-assisted product planning.
 
-## 🔮 Future Enhancements
-
-- Advanced feedback analytics and visualizations
-- Improved feature prioritization models
-- More customizable roadmap generation
-- Enhanced AI recommendations
-- Production deployment and monitoring
-
 ## 🤝 Collaboration
 
 This project was developed collaboratively. Contributions, feedback, and suggestions are welcome.
-
-## 📄 License
-
-Add an appropriate license if the project owner has chosen to distribute the project under one.
 
 ---
 
